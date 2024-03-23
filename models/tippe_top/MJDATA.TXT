@@ -1,0 +1,442 @@
+SIZES
+  narena                13631488
+  nbuffer               6304
+  nplugin               0
+  maxuse_stack          2032
+  maxuse_arena          29624
+  maxuse_con            1
+  maxuse_efc            4
+  solver_nisland        1
+  ne                    0
+  nf                    0
+  nl                    0
+  nefc                  4
+  nnzJ                  24
+  ncon                  1
+  nisland               0
+  threadpool            0
+
+TIMER
+    0:  duration =  1.1        number = 8
+    1:  duration =  1          number = 32
+    2:  duration =  0          number = 0
+    3:  duration =  0.75       number = 32
+    4:  duration =  0.045      number = 32
+    5:  duration =  0          number = 0
+    6:  duration =  0.058      number = 32
+    7:  duration =  0          number = 0
+    8:  duration =  0.075      number = 32
+    9:  duration =  0.08       number = 32
+    10:  duration =  0.2        number = 32
+    11:  duration =  0.049      number = 32
+    12:  duration =  0.039      number = 32
+    13:  duration =  0.039      number = 32
+    14:  duration =  0.047      number = 32
+
+SOLVER STAT
+  solver_nisland = 1
+  solver_fwdinv =   0         0       
+ENERGY =   0         0       
+
+TIME =  64      
+
+QPOS
+   0       
+   0       
+   0.02    
+   1       
+   0       
+   0       
+   0       
+
+QVEL
+   0       
+   0       
+  -2.7e-16 
+   0       
+   0       
+   0       
+
+QACC_WARMSTART
+   0       
+   0       
+  -7.1e-16 
+   0       
+   0       
+   0       
+
+QFRC_APPLIED
+   0       
+   0       
+   0       
+   0       
+   0       
+   0       
+
+XFRC_APPLIED
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+
+QACC
+   0       
+   0       
+  -7.1e-16 
+   0       
+   0       
+   0       
+
+XPOS
+   0         0         0       
+   0         0         0.02    
+
+XQUAT
+   1         0         0         0       
+   1         0         0         0       
+
+XMAT
+   1         0         0         0         1         0         0         0         1       
+   1         0         0         0         1         0         0         0         1       
+
+XIPOS
+   0         0         0       
+   0         0         0.014   
+
+XIMAT
+   1         0         0         0         1         0         0         0         1       
+   0        -1         0         0         0        -1         1         0         0       
+
+XANCHOR
+   0         0         0.02    
+
+XAXIS
+   0         0         1       
+
+GEOM_XPOS
+   0         0         0       
+   0         0         0.02    
+   0         0         0.04    
+   0         0         0.0046  
+
+GEOM_XMAT
+   1         0         0         0         1         0         0         0         1       
+   1         0         0         0         1         0         0         0         1       
+   1         0         0         0         1         0         0         0         1       
+   1         0         0         0         1         0         0         0         1       
+
+CAM_XPOS
+   0        -1         0.07    
+
+CAM_XMAT
+   1         0         0         0         0.45     -0.89      0         0.89      0.45    
+
+LIGHT_XPOS
+   0         0         0.6     
+
+LIGHT_XDIR
+   0         0        -1       
+
+SUBTREE_COM
+   0         0         0.014   
+   0         0         0.014   
+
+CDOF
+   0         0         0         1         0         0       
+   0         0         0         0         1         0       
+   0         0         0         0         0         1       
+   1         0         0        -0         0.0054    0       
+   0         1         0        -0.0054    0         0       
+   0         0         1        -0         0         0       
+
+CINERT
+   0         0         0         0         0         0         0         0         0         0       
+   1.3e-05   1.3e-05   1.3e-05   0         0         0         0         0         0         0.055   
+
+CRB
+   0         0         0         0         0         0         0         0         0         0       
+   1.3e-05   1.3e-05   1.3e-05   0         0         0         0         0         0         0.055   
+
+QM
+   0.055     0         0         0        -0.0003    0       
+   0         0.055     0         0.0003    0         0       
+   0         0         0.055     0         0         0       
+   0         0.0003    0         1.4e-05   0         0       
+  -0.0003    0         0         0         1.4e-05   0       
+   0         0         0         0         0         1.3e-05 
+
+QLD
+   0.049     0         0         0        -21        0       
+   0         0.049     0         21        0         0       
+   0         0         0.055     0         0         0       
+   0         21        0         1.4e-05   0         0       
+  -21        0         0         0         1.4e-05   0       
+   0         0         0         0         0         1.3e-05 
+
+QLDIAGINV
+   20      
+   20      
+   18      
+   7e+04   
+   7e+04   
+   7.8e+04 
+
+QLDIAGSQRTINV
+   4.5     
+   4.5     
+   4.2     
+   2.6e+02 
+   2.6e+02 
+   2.8e+02 
+
+D_rownnz              6 6 6 6 6 6
+
+D_rowadr              0 6 12 18 24 30
+
+D_colind              0 1 2 3 4 5 0 1 2 3 4 5 0 1 2 3 4 5 0 1 2 3 4 5 0 1 2 3 4 5 0 1 2 3 4 5
+
+B_rownnz              6 6
+
+B_rowadr              0 6
+
+B_colind              0 1 2 3 4 5 0 1 2 3 4 5
+
+QDERIV
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+
+QLU
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+
+CONTACT
+  0:
+     dim           3
+     gfev          0 -1 -1 -1 : 1 -1 -1 -1
+     exclude       0
+     efc_address   0
+     solref         0.02      1       
+     solimp         0.9       0.95      0.001     0.5       2       
+     dist          -0.00037 
+     includemargin  0       
+     pos            0         0        -0.00018 
+     frame          0         0         1         0         1         0        -1         0         0       
+     friction       1         1         0.005     0.0001    0.0001  
+     mu             1       
+
+EFC_TYPE
+  6
+  6
+  6
+  6
+
+EFC_ID
+  0
+  0
+  0
+  0
+
+EFC_J
+   0         1         1         0.02      0         0       
+   0        -1         1        -0.02      0         0       
+  -1         0         1         0         0.02      0       
+   1         0         1         0        -0.02      0       
+
+EFC_POS
+  -0.00037 
+  -0.00037 
+  -0.00037 
+  -0.00037 
+
+EFC_MARGIN
+   0       
+   0       
+   0       
+   0       
+
+EFC_FRICTIONLOSS
+   0       
+   0       
+   0       
+   0       
+
+EFC_DIAGAPPROX
+   72      
+   72      
+   72      
+   72      
+
+EFC_KBIP
+   2.8e+03   1.1e+02   0.91     -73      
+   2.8e+03   1.1e+02   0.91     -73      
+   2.8e+03   1.1e+02   0.91     -73      
+   2.8e+03   1.1e+02   0.91     -73      
+
+EFC_D
+   0.15    
+   0.15    
+   0.15    
+   0.15    
+
+EFC_R
+   6.8     
+   6.8     
+   6.8     
+   6.8     
+
+CVEL
+   0         0         0         0         0         0       
+   0         0         0         0         0        -2.7e-16 
+
+CDOF_DOT
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+   0         0         0         0        -2.7e-16   0       
+   0         0         0         2.7e-16  -0         0       
+   0         0         0         0        -0         0       
+
+QFRC_BIAS
+   0       
+   0       
+   0.54    
+   0       
+   0       
+   0       
+
+QFRC_SPRING
+   0       
+   0       
+   0       
+   0       
+   0       
+   0       
+
+QFRC_DAMPER
+   0       
+   0       
+   0       
+   0       
+   0       
+   0       
+
+QFRC_GRAVCOMP
+   0       
+   0       
+   0       
+   0       
+   0       
+   0       
+
+QFRC_FLUID
+   0       
+   0       
+   0       
+   0       
+   0       
+   0       
+
+QFRC_PASSIVE
+   0       
+   0       
+   0       
+   0       
+   0       
+   0       
+
+EFC_VEL
+  -2.7e-16 
+  -2.7e-16 
+  -2.7e-16 
+  -2.7e-16 
+
+EFC_AREF
+   0.93    
+   0.93    
+   0.93    
+   0.93    
+
+SUBTREE_LINVEL
+   0         0         0       
+   0         0         0       
+
+SUBTREE_ANGMOM
+   0         0         0       
+   0         0         0       
+
+QFRC_ACTUATOR
+   0       
+   0       
+   0       
+   0       
+   0       
+   0       
+
+QFRC_SMOOTH
+   0       
+   0       
+  -0.54    
+   0       
+   0       
+   0       
+
+QACC_SMOOTH
+   0       
+   0       
+  -9.8     
+   0       
+   0       
+   0       
+
+EFC_B
+  -11      
+  -11      
+  -11      
+  -11      
+
+EFC_FORCE
+   0.14    
+   0.14    
+   0.14    
+   0.14    
+
+EFC_STATE
+  1
+  1
+  1
+  1
+
+QFRC_CONSTRAINT
+   0       
+   0       
+   0.54    
+   0       
+   0       
+   0       
+
+QFRC_INVERSE
+   0       
+   0       
+   0       
+   0       
+   0       
+   0       
+
+CACC
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+
+CFRC_INT
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+
+CFRC_EXT
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+
